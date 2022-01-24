@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Dongle", sans-serif;
+  background-color: #f3f3f3;
+}
+.container {
+  width: 1800px;
+  margin: auto;
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  background-color: #fff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+  width: 350px;
+}
+ul li:hover {
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.3);
+}
+ul li img {
+  display: block;
+  object-fit: cover;
+  margin-bottom: 15px;
+  height: 200px;
+  width: 350px;
+}
+ul li p {
+  font-weight: bold;
+  padding: 0 15px;
+  font-size: 24px;
+  margin: 0;
+}
+footer {
+  background-color: #dadada;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 10;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.links-container {
+  padding: 15px;
+}
+.links-container a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 5px;
+  height: 35px;
+  width: 35px;
+}
+.links-container a.view {
+  background: #dada;
+}
+.links-container a.github {
+  background: #000;
+  color: #fff;
+}
