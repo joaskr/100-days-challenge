@@ -1,7 +1,8 @@
 const projects = [
   {
     name: "QR-code-component",
-    github: "link",
+    github:
+      "https://github.com/joaskr/100-days-challenge/tree/main/QR-code-component",
   },
 ];
 
