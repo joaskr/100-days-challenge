@@ -23,8 +23,8 @@ During the first day I wanted to start with something easy but satisfying. That'
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/joaskr/100-days-challenge/tree/main/QR-code-component)
-- Live Site URL: [Add live site URL here](https://100-days-challenge-azure.vercel.app/QR-code-component/index.html)
+- Solution URL: [here](https://github.com/joaskr/100-days-challenge/tree/main/QR-code-component)
+- Live Site URL: [here](https://100-days-challenge-azure.vercel.app/QR-code-component/index.html)
 
 ## My process
 
