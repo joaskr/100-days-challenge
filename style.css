@@ -13,6 +13,7 @@ body {
 }
 h1 {
   text-align: center;
+  margin-top: 15px;
 }
 h2 {
   font-size: 24px;
@@ -41,7 +42,7 @@ ul li img {
   width: 350px;
 }
 ul li p {
-  font-weight: bold;
+  font-weight: 700;
   padding: 0 15px;
   font-size: 24px;
   margin: 0;
@@ -52,7 +53,11 @@ footer {
   width: 100%;
   text-align: center;
   padding: 10;
-  font-size: 14px;
+  font-size: 18px;
+}
+footer a {
+  font-weight: 700;
+  color: #dada;
 }
 a {
   text-decoration: none;
