@@ -4,18 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taylor Swift lyrics</title>
+    <title>One Direction lyrics quiz</title>
+    <script
+      src="https://kit.fontawesome.com/3a98e49b7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
       <div class="container">
         <h1 id="lyrics"></h1>
-        <input class="guess" />
+        <input
+          type="text"
+          class="guess"
+          id="guessInput"
+          placeholder="Guess the song"
+        />
         <div class="buttons-container">
-          <button>Check</button>
-          <button>Hint</button>
-          <button>Give up</button>
+          <button class="button check game-btn" type="submit">
+            <i class="fas fa-check-square"></i>Check
+          </button>
+          <button class="button hint game-btn" type="submit">
+            <i class="fas fa-search"></i>Hint
+          </button>
+          <button class="button give-up game-btn" type="submit">
+            <i class="fas fa-times"></i>Give up
+          </button>
+          <button class="button reset hidden" type="submit">Reset</button>
+        </div>
+        <div class="result-container">
+          <p class="resultString"></p>
         </div>
       </div>
     </main>

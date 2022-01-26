@@ -3,6 +3,110 @@
   padding: 0;
 }
 body {
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  background-color: #fff;
+  width: 80vw;
+  max-width: 1000px;
+  min-height: 60vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container > * {
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  width: 80%;
+  font-style: italic;
+  font-weight: 300;
+}
+.guess {
+  width: 50%;
+  padding: 5px 10px;
+}
+.success {
+  border-color: #3cb371;
+  color: #3cb371;
+}
+.result {
+  width: 20%;
+  font-size: 12px;
+}
+.button {
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+i {
+  margin-right: 5px;
+}
+.check {
+  background-color: #3cb371;
+  border-color: #3cb371;
+}
+.hint {
   background-color: #ced4e0;
-  font-family: onedirectionmedium;
+  border-color: #ced4e0;
+}
+.give-up {
+  background-color: #dc143c;
+  border-color: #dc143c;
+}
+.resultString {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.result-container {
+  height: 20px;
+  margin-bottom: 0;
+}
+.reset {
+  background-color: #181d33;
+  color: #fff;
+}
+.hidden {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  .guess {
+    width: 80%;
+  }
+  .buttons-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .buttons-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .button {
+    margin-bottom: 5px;
+  }
 }
