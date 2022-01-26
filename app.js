@@ -4,6 +4,10 @@ const projects = [
     github:
       "https://github.com/joaskr/100-days-challenge/tree/main/QR-code-component",
   },
+  {
+    name: "Guess-song",
+    github: "https://github.com/joaskr/100-days-challenge/tree/main/Guess-song",
+  },
 ];
 
 const list = document.getElementById("list");
