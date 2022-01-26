@@ -8,6 +8,11 @@ const projects = [
     name: "Guess-song",
     github: "https://github.com/joaskr/100-days-challenge/tree/main/Guess-song",
   },
+  {
+    name: "Tricky-button",
+    github:
+      "https://github.com/joaskr/100-days-challenge/tree/main/Tricky-button",
+  },
 ];
 
 const list = document.getElementById("list");

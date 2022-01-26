@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #008080;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.window {
+  background: #fff;
+  max-width: 500px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.33);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.33);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.33);
+  text-align: center;
+  padding: 30px;
+}
+.window h1 {
+  color: #324b4b;
+}
+.window p {
+  color: #324b4b;
+}
+b {
+  color: #008080;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.btn {
+  border-color: #008080;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #008080;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 40%;
+}
+.not-active {
+  border: none;
+  background: #fff;
+  color: #008080;
+}
+.show {
+  z-index: 999;
+  display: none;
+}
+.show .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.show .img-show {
+  width: 600px;
+  height: 800px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+  cursor: pointer;
+  background: #fff;
+  border: #fff;
+  padding: 5px;
+}
+.img-show img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
