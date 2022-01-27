@@ -13,6 +13,11 @@ const projects = [
     github:
       "https://github.com/joaskr/100-days-challenge/tree/main/Tricky-button",
   },
+  ,
+  {
+    name: "Ambience",
+    github: "https://github.com/joaskr/100-days-challenge/tree/main/Ambience",
+  },
 ];
 
 const list = document.getElementById("list");
