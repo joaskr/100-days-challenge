@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ambience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3a98e49b7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="banner">
+      <h1 id="clock"></h1>
+      <div class="greetings-container">
+        <i class="fa greeting-icon"></i>
+        <p id="greetings"></p>
+      </div>
+      <div class="settings">
+        <label
+          >Music
+          <input type="checkbox" class="music-chbx" />
+          <span class="checkmark"></span>
+        </label>
+        <audio class="audio music" src="./assets/sounds/music.wav" loop></audio>
+        <label
+          >Water
+          <input type="checkbox" class="water-chbx" />
+          <span class="checkmark"></span>
+        </label>
+        <audio
+          class="audio water"
+          src="./assets/sounds/lake_sound.mp3"
+          loop
+        ></audio>
+        <label
+          >Birds
+          <input type="checkbox" class="birds-chbx" />
+          <span class="checkmark"></span>
+        </label>
+        <audio class="audio birds" src="./assets/sounds/birds.wav" loop></audio>
+      </div>
+
+      <div class="container">
+        <div id="scene">
+          <div class="layer" data-depth="0.1">
+            <img src="./assets/background/L1.png" />
+          </div>
+          <div class="layer" data-depth="1">
+            <img src="./assets/background/L2.png" />
+          </div>
+          <div class="layer" data-depth="0.4">
+            <img src="./assets/background/L3.png" />
+          </div>
+          <div class="layer" data-depth="0.5">
+            <img src="./assets/background/L4.png" />
+          </div>
+          <div class="layer" data-depth="1">
+            <img src="./assets/background/L5.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
