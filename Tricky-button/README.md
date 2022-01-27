@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component solution
+# Tricky button
 
 This is a small website to show my awesome cat. There is a small trick but you hopefully won't find it. Just don't click on no...
 
