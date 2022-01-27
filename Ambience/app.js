@@ -21,6 +21,7 @@ const getTime = () => {
     let currentHour = currentTime.getHours();
     let currentMinute = currentTime.getMinutes();
     let currentSecond = currentTime.getSeconds();
+    currentHour = (currentHour < 10 ? "0" : "") + currentHour;
     currentMinute = (currentMinute < 10 ? "0" : "") + currentMinute;
     currentSecond = (currentSecond < 10 ? "0" : "") + currentSecond;
     const currentTimeText = `${currentHour}:${currentMinute}:${currentSecond}`;
