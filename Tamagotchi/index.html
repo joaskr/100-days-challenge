@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your chicken</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+      <div class="start-screen-elements">
+        <h1 class="start-title">Name your chicken and click on egg</h1>
+        <button id="egg-btn"></button>
+        <input type="text" id="name-input" placeholder="name" />
+        <p class="input-validation"></p>
+      </div>
+    </div>
+    <div class="game-screen invisible">
+      <div class="game-screen-elements">
+        <h1 class="start-title">Hello <b class="chicken-name"></b></h1>
+        <div class="stats">
+          <div class="stat">
+            <label for="hunger">Food:</label>
+            <progress id="hunger" max="100" >  </progress>
+            <p class="hunger-display"></p>
+          </div>
+          <div class="stat">
+            <label for="fun">Fun:</label>
+            <progress id="fun" max="100" ></progress>
+            <p class="fun-display"></p>
+          </div><div class="stat">
+            <label for="energy">Energy:</label>
+            <progress id="energy" max="100" > </progress>
+            <p class="energy-display"></p>
+          </div>
+        </div>
+        <div class="chicken-container">
+          <img src="./assets/background/_11_background.png"></img>     
+          <img src="./assets/background/_07_huge_clouds.png"></img>
+          <img src="./assets/background/_08_clouds.png"></img>
+          <img src="./assets/background/_09_distant_clouds1.png"></img>
+          <img src="./assets/background/_10_distant_clouds.png"></img> 
+          <img src="./assets/background/_05_hill1.png"></img>
+          <img src="./assets/background/_06_hill2.png"></img>
+          <img src="./assets/background/_03_distant_trees.png"></img>
+          <img src="./assets/background/_02_trees and bushes.png"></img>
+          <img src="./assets/background/_02_trees and bushes.png"></img>
+          <img src="./assets/background/_04_bushes.png"></img>
+          <img src="./assets/background/_01_ground.png"></img>          
+          <img id="chicken" class="moving" src="./assets/Chicken_Strut.gif"></img>
+        </div>
+        <div class="buttons-container">
+          <button class="btn feed-btn">Feed</button>
+          <button class="btn play-btn">Play</button>
+          <button class="btn sleep-btn">Sleep</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

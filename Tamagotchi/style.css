@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cute Font", cursive;
+}
+.start-screen {
+  background-image: url(./assets/background.png);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.start-screen-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-title {
+  font-size: 84px;
+  font-weight: 400;
+}
+
+#egg-btn {
+  background-image: url(./assets/egg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  border: none;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+#egg-btn:hover {
+  animation: jump 0.5s linear infinite;
+}
+@keyframes jump {
+  0% {
+    background-position: top center;
+  }
+  50% {
+    background-position: bottom center;
+  }
+  100% {
+    background-position: top center;
+  }
+}
+
+#name-input {
+  font-size: 24px;
+  /* border: #fff; */
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.input-validation {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+.error {
+  position: relative;
+  animation: shake 0.1s linear;
+  animation-iteration-count: 3;
+  border: 1px solid red;
+}
+@keyframes shake {
+  0% {
+    left: -5px;
+  }
+  100% {
+    right: -5px;
+  }
+}
+.game-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0099db;
+}
+.invisible {
+  display: none;
+}
+.game-screen-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.stats {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.stat {
+  display: flex;
+  justify-content: space-between;
+}
+.stat > * {
+  margin-right: 15px;
+}
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-webkit-progress-value {
+  background: rgb(255, 99, 132);
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+#hunger[value]::-webkit-progress-value {
+  background: rgb(255, 99, 132);
+}
+#fun[value]::-webkit-progress-value {
+  background: rgb(255, 205, 86);
+}
+#energy[value]::-webkit-progress-value {
+  background: rgb(255, 159, 64);
+}
+.chicken-container {
+  border: 1px solid white;
+  width: 800px;
+  height: 650px;
+  position: relative;
+}
+.chicken-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#chicken {
+  bottom: 20px;
+  left: 350px;
+  width: 100px;
+  height: 100px;
+}
+.moving {
+  animation: walk 10s linear infinite;
+}
+.running {
+  animation: run 8s linear infinite;
+}
+@keyframes walk {
+  0% {
+    left: 350px;
+  }
+  25% {
+    left: 300px;
+  }
+  50% {
+    left: 350px;
+  }
+  75% {
+    left: 400px;
+    /* transform: scaleX(-1); */
+  }
+  100% {
+    left: 350px;
+  }
+}
+@keyframes run {
+  0% {
+    left: 350px;
+  }
+  25% {
+    left: 100px;
+  }
+  50% {
+    left: 350px;
+  }
+  75% {
+    left: 550px;
+    /* transform: scaleX(-1); */
+  }
+  100% {
+    left: 350px;
+  }
+}
+.btn {
+  padding: 10px 15px;
+  border-radius: 20px;
+  width: 150px;
+  background: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-width: 5px;
+  cursor: pointer;
+}
+.feed-btn {
+  border-color: rgb(255, 99, 132);
+}
+.play-btn {
+  border-color: rgb(255, 205, 86);
+}
+.sleep-btn {
+  border-color: rgb(255, 159, 64);
+}
