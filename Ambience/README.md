@@ -10,7 +10,7 @@ This is a project for the 4nd day of 100 days challenge. I wanted to make someth
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Attribution] (#Attribution)
+- [Attribution](#Attribution)
 
 ## Overview
 
