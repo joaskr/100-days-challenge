@@ -14,7 +14,7 @@ This is a project for the 4nd day of 100 days challenge. I wanted to make someth
 
 ## Overview
 
-### Day 2 of 100 days challenge
+### Day 4 of 100 days challenge
 
 I might have a problem with making decisions. In the beginning I wanted to make a coffee shop ambience. I gave up after 1 hour of trying to find the perfect background. Then I thought about a medieval tavern ambience - Skyrin/Witcher type - unfortunately, I couldn't find any good background. I realized that I should try to learn how to make a pixel art - I should add it to my "to-do list". Finally I found this parallax setup. I wanted to do something with paralax for quite some time so I found some youtube videos and started coding.
 
