@@ -32,6 +32,7 @@ I feel like this project needs some improvements. I want to improve the API call
 
 - API - [Aztro](https://aztro.readthedocs.io/en/latest/)
 - Images - [Aesthetic zodiac signs](https://image.freepik.com/free-vector/aesthetic-zodiac-signs-doodle-art-collection-vector_53876-157867.jpg)
+- Youtube tutorial for flippable card - [Awesome Card Flip Animation using CSS & JavaScript](https://www.youtube.com/watch?v=QGVXmoZWZuw)
 
 ## Author
 
