@@ -22,6 +22,11 @@ const projects = [
     github:
       "https://github.com/joaskr/100-days-challenge/tree/main/Color-switch",
   },
+  {
+    name: "Zodiac-cards",
+    github:
+      "https://github.com/joaskr/100-days-challenge/tree/main/Zodiac-cards",
+  },
 ];
 
 const list = document.getElementById("list");
