@@ -27,6 +27,10 @@ const projects = [
     github:
       "https://github.com/joaskr/100-days-challenge/tree/main/Zodiac-cards",
   },
+  {
+    name: "Keyboard",
+    github: "https://github.com/joaskr/100-days-challenge/tree/main/Keyboard",
+  },
 ];
 
 const list = document.getElementById("list");
