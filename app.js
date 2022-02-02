@@ -31,6 +31,11 @@ const projects = [
     name: "Keyboard",
     github: "https://github.com/joaskr/100-days-challenge/tree/main/Keyboard",
   },
+  {
+    name: "ping-coming-soon-page",
+    github:
+      "https://github.com/joaskr/100-days-challenge/tree/main/ping-coming-soon-page",
+  },
 ];
 
 const list = document.getElementById("list");
