@@ -5,7 +5,8 @@ const errorString = document.querySelector(".error-string");
 notifyBtn.addEventListener("click", function (event) {
   event.preventDefault();
   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value)) {
-    return true;
+    input.value = "";
+    input.placeholder = "Thank you :)";
   } else {
     input.classList.add("wrong");
     errorString.classList.toggle("invisible");
