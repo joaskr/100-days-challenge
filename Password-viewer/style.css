@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #10364c;
+}
+body.dark {
+  background-color: #c9e4f4;
+}
+main {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #c9e4f4;
+  color: #10364c;
+}
+main.dark {
+  background-color: #10364c;
+  color: #c9e4f4;
+}
+#password {
+  padding: 20px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 30rem;
+  max-width: 60vw;
+  border: none;
+  margin-right: 15px;
+  background-color: transparent;
+  color: #10364c;
+}
+#password.dark {
+  color: #c9e4f4;
+}
+#password::placeholder {
+  color: #78bce3;
+}
+
+#password:focus {
+  outline: none;
+}
+#toggle-password {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+  background-color: #c9e4f4;
+  color: #10364c;
+}
