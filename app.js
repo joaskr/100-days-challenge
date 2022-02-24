@@ -41,6 +41,10 @@ const projects = [
     github:
       "https://github.com/joaskr/100-days-challenge/tree/main/Password-viewer",
   },
+  {
+    name: "Pride",
+    github: "https://github.com/joaskr/100-days-challenge/tree/main/Pride",
+  },
 ];
 
 const list = document.getElementById("list");
