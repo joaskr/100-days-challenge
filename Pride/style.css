@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20rem;
+  letter-spacing: 0.08em;
+  -webkit-text-stroke: 0.02em #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: animateBg 45s linear infinite;
+  line-height: 1.2em;
+}
+@keyframes animateBg {
+  100% {
+    background-position: 0 -10em;
+  }
+}
+.buttons {
+  width: 100vw;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.button {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  min-width: 5rem;
+  width: 8rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #000;
+  color: #fff;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.active {
+  background: #fff;
+  color: #000;
+}
+.rainbow {
+  background-image: linear-gradient(
+    #e50000 16.7%,
+    #ff8d00 16.7%,
+    #ff8d00 33.4%,
+    #ffee00 33.4%,
+    #ffee00 50.1%,
+    #028121 50.1%,
+    #028121 66.8%,
+    #004cff 66.8%,
+    #004cff 83.5%,
+    #770088 83.5%
+  );
+}
+.trans {
+  background-image: linear-gradient(
+    #5bcffb 20%,
+    #f5abb9 20%,
+    #f5abb9 40%,
+    #fff 40%,
+    #fff 60%,
+    #f5abb9 60%,
+    #f5abb9 80%,
+    #5bcffb 80%
+  );
+}
+.bi {
+  background-image: linear-gradient(
+    #d60270 20%,
+    #d60270 20%,
+    #d60270 40%,
+    #9b4f96 40%,
+    #9b4f96 60%,
+    #0038a8 60%,
+    #0038a8 80%,
+    #0038a8 80%
+  );
+}
+.pan {
+  background-image: linear-gradient(
+    #ff1c8d 33.3%,
+    #ffd700 33.3%,
+    #ffd700 66.7%,
+    #1ab3ff 66.7%,
+    #1ab3ff 99.9%
+  );
+}
+.nonbinary {
+  background-image: linear-gradient(
+    #fcf431 25%,
+    #fcfcfc 25%,
+    #fcfcfc 50%,
+    #9d59d2 50%,
+    #9d59d2 75%,
+    #282828 75%
+  );
+}
+.lesbian {
+  background-image: linear-gradient(
+    #d62800 20%,
+    #ff9b56 20%,
+    #ff9b56 40%,
+    #fff 40%,
+    #fff 60%,
+    #d462a6 60%,
+    #d462a6 80%,
+    #a40062 80%
+  );
+}
+.ace {
+  background-image: linear-gradient(
+    #000000 25%,
+    #a4a4a4 25%,
+    #a4a4a4 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #810081 75%
+  );
+}
+.gay {
+  background-image: linear-gradient(
+    #078d70 14.3%,
+    #26ceaa 14.3%,
+    #26ceaa 28.6%,
+    #98e8c1 28.6%,
+    #98e8c1 43.2%,
+    #ffffff 43.2%,
+    #ffffff 57.5%,
+    #7bade2 57.5%,
+    #7bade2 71.8%,
+    #5049cc 71.8%,
+    #5049cc 86.1%,
+    #3d1a78 86.1%
+  );
+}
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-size: 15rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 13rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 10rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 7rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
