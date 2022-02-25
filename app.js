@@ -45,6 +45,10 @@ const projects = [
     name: "Pride",
     github: "https://github.com/joaskr/100-days-challenge/tree/main/Pride",
   },
+  {
+    name: "Picker",
+    github: "https://github.com/joaskr/100-days-challenge/tree/main/Picker",
+  },
 ];
 
 const list = document.getElementById("list");
