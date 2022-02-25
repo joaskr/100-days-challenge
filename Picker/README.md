@@ -2,6 +2,13 @@
 
 Pick a color and see a matching color palette. Boom, it's magic. Colors are pretty. Well, most of them.
 
+# Important
+
+Mixed Content: The page at was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint. This request has been blocked; the content must be served over HTTPS.
+warning is preventing users from getting colors from API which is HTTP only. If you want to see the colors please change site settings and temporarily allow insecure content. 
+To do that - Click on keylock next to the URL -> Site settings -> scroll down -> insecure content - allow -> reload the page
+Thanks! 
+
 ## Table of contents
 
 - [Overview](#overview)
