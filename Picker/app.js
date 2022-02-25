@@ -3,7 +3,7 @@ const picker = document.getElementById("color-picker");
 const header = document.getElementById("color-header");
 
 const fetchPalette = async (red, green, blue) => {
-  var url = "//colormind.io/api/";
+  var url = "http//colormind.io/api/";
   var data = {
     model: "default",
     input: [[red, green, blue], "N", "N", "N", "N"],
