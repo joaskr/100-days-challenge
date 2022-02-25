@@ -16,10 +16,11 @@ const fetchPalette = async (red, green, blue) => {
       palette.forEach((color, id) => {
         let fetchedColor = `${color[0]}, ${color[1]}, ${color[2]}`;
         let fetchedColorRGB = "rgb(" + fetchedColor + ")";
-        const elemName = "colorDiv" + id;
-        document.getElementById(elemName).style.backgroundColor =
+        const divName = "colorDiv" + id;
+        const pName = "colorText" + id;
+        document.getElementById(divName).style.backgroundColor =
           fetchedColorRGB;
-        document.getElementById(elemName).innerHTML = fetchedColorRGB;
+        document.getElementById(pName).innerHTML = fetchedColorRGB;
       });
     }
   };
