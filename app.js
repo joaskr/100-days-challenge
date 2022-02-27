@@ -49,6 +49,10 @@ const projects = [
     name: "Picker",
     github: "https://github.com/joaskr/100-days-challenge/tree/main/Picker",
   },
+  {
+    name: "Get-random",
+    github: "https://github.com/joaskr/100-days-challenge/tree/main/Get-random",
+  },
 ];
 
 const list = document.getElementById("list");
