@@ -144,6 +144,9 @@ a:visited {
 a:visited:hover {
   color: #fff;
 }
+i {
+  font-size: 14px;
+}
 .copyright {
   font-size: 0.8rem;
   color: var(--gray);
