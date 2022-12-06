@@ -107,6 +107,7 @@ footer {
 }
 .social-container {
   margin-bottom: 20px;
+  display: flex;
 }
 .social-btn {
   width: 30px;
@@ -116,6 +117,10 @@ footer {
   background-color: #fff;
   color: var(--blue);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px 0 5px;
 }
 .social-btn:hover {
   background-color: var(--blue);
@@ -128,6 +133,7 @@ footer {
 a {
   text-decoration: none;
   color: var(--blue);
+  display: inline-block;
 }
 a:hover {
   color: #fff;
