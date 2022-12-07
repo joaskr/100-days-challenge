@@ -1,4 +1,4 @@
-const url = "https://one-direction-api.herokuapp.com/randomlyrics";
+const url = "https://one-direction-songs-api.onrender.com/randomlyrics";
 const quoteText = document.getElementById("lyrics");
 const guessInput = document.getElementById("guessInput");
 const checkButton = document.querySelector(".check");
